@@ -1,0 +1,11 @@
+C:\unik\printers\PRINT\bin\Debug\PRINT.exe.config
+C:\unik\printers\PRINT\bin\Debug\PRINT.exe
+C:\unik\printers\PRINT\bin\Debug\PRINT.pdb
+C:\unik\printers\PRINT\bin\Debug\zxing.xml
+C:\unik\printers\PRINT\bin\Debug\zxing.presentation.xml
+C:\unik\printers\PRINT\obj\Debug\PRINT.csproj.AssemblyReference.cache
+C:\unik\printers\PRINT\obj\Debug\PRINT.csproj.SuggestedBindingRedirects.cache
+C:\unik\printers\PRINT\obj\Debug\PRINT.csproj.CoreCompileInputs.cache
+C:\unik\printers\PRINT\obj\Debug\PRINT.csproj.CopyComplete
+C:\unik\printers\PRINT\obj\Debug\PRINT.exe
+C:\unik\printers\PRINT\obj\Debug\PRINT.pdb
