@@ -14,7 +14,6 @@ namespace TPExpCon
 		/// How much codes codes read each time. Default - 50
 		/// </summary>
 		public static int CodesChunkSize { get; set; } = 10;
-
 		/// <summary>
 		/// Length of one code
 		/// </summary>

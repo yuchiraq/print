@@ -102,12 +102,6 @@ namespace TPExpCon
 			e.Graphics.DrawImage(image, Position);
 			Images.RemoveAt(0);
 		}
-		private static void MultiPrint(object sender, PrintPageEventArgs e)
-		{
-			foreach (var image in Images)
-			{
-				e.Graphics.DrawImage(image, Position);
-			}
-		}
+	
 	}
 }

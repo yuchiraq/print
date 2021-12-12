@@ -9,21 +9,22 @@ namespace TPExpCon
 	{
 		static void Main()
 		{
-			///Console.Title = "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$";
-			Console.Title = "                                                                                                                                                  ...    ";
+			Console.Title = " ";
 			Console.BackgroundColor = ConsoleColor.White;
 			Console.ForegroundColor = ConsoleColor.Red;
-
 			Console.Clear();
-			Console.Write("Путь к файлу с кодами: C:\\unik\\printers\\PRINT\\codes.txt\n");
+
+			String path;
+			Console.Write("Введите путь к файлу с кодами\n");
+			path = Console.ReadLine();
+			
 			Console.ForegroundColor = ConsoleColor.Black;
-			Console.Write("\t\tДоступные принтеры:\t\t\n");
+			Console.Write("\n\t\tДоступные принтеры:\t\t\n");
 			Console.BackgroundColor = ConsoleColor.White;
-			var codes = Codes.GetCodesFromFile("C:\\unik\\printers\\PRINT\\codes.txt");
+			var codes = Codes.GetCodesFromFile(path);
 			List<string> list = codes.ToList();
 			
 			Printer.PrintOneByOne(list, new Point(90, 150), new Point(180, 180));
-
 		}
 	}
 }
